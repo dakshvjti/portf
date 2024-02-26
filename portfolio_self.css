@@ -1,0 +1,89 @@
+/* body
+{
+    /* background-color: rgb(81, 81, 81);
+    background-image: url(me2.jpg);
+
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+    background-repeat: no-repeat; */
+
+    /* background-position: bottom center; comments officially
+    background-size:contain; 
+    background-position-y:bottom; comment officially*/
+
+    /*color: rgba(255, 255, 255, 0.574); Not a comment
+} */
+body 
+{   /*Proper code got from ChatGPT*/
+    background-color: rgb(81, 81, 81);
+    background-image: url(me2.jpg);
+
+    background-size: cover; /* This will cover the entire background */
+    background-position: center left 20%; /* Center the background image. left 20% means focus on right side (idk why opposite) and offset 20% */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+}
+@media (min-width: 768px) {
+    body {
+        /* background-position: center left 35%; */
+        background-position: center;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        background-position: center left 45%;
+    }
+}
+.shelf
+{
+    background-color: rgba(50, 48, 48, 0.482);
+    text-align: center;
+}
+h1
+{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.46);
+    text-align: center;
+    text-shadow: 0px 0px 4px rgba(255, 253, 132, 0.688);
+    /* border: 1px;
+    border-radius: 10%; */
+}
+.titles
+{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table
+{
+    border-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border:0cqi;
+    margin: 0 auto;
+    /* align-content:; */
+}
+li
+{
+    margin-bottom: 0px;
+    
+    margin-left: -5%; /*this removes the error*/
+    list-style: none;
+
+    text-align: center;
+    /* left: -2em; */
+    /* position: relative; */
+    /* padding: 0; */
+}
+h4
+{
+    margin-bottom: 0px;
+    
+}
+button
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.589);
+    /* background-color: black; */
+}
