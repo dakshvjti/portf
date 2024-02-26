@@ -1,21 +1,5 @@
-/* body
-{
-    /* background-color: rgb(81, 81, 81);
-    background-image: url(me2.jpg);
-
-    background-size: 100% 100%;
-    background-attachment: fixed;
-
-    background-repeat: no-repeat; */
-
-    /* background-position: bottom center; comments officially
-    background-size:contain; 
-    background-position-y:bottom; comment officially*/
-
-    /*color: rgba(255, 255, 255, 0.574); Not a comment
-} */
 body 
-{   /*Proper code got from ChatGPT*/
+{   /*Proper code got from sources*/
     background-color: rgb(81, 81, 81);
     background-image: url(me2.jpg);
 
@@ -25,15 +9,19 @@ body
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
 }
-@media (min-width: 768px) {
-    body {
+@media (min-width: 768px) 
+{
+    body 
+    {
         /* background-position: center left 35%; */
         background-position: center;
     }
 }
 
-@media (max-width: 767px) {
-    body {
+@media (max-width: 767px) 
+{
+    body 
+    {
         background-position: center left 45%;
     }
 }
@@ -72,9 +60,6 @@ li
     list-style: none;
 
     text-align: center;
-    /* left: -2em; */
-    /* position: relative; */
-    /* padding: 0; */
 }
 h4
 {
@@ -85,5 +70,16 @@ button
 {
     color: white;
     background-color: rgba(0, 0, 0, 0.589);
-    /* background-color: black; */
+    width: 90px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+.navi
+{
+        display: flex;
+        flex-direction:column;
+}
+button:hover 
+{
+        background-color: rgba(65, 65, 65, 0.804);
 }
